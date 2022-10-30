@@ -38,6 +38,11 @@ const userResult = (array,node) => {
       newPhone.href = arr.phone;
       newSite.href = arr.website;
 
+      newEmail.target = 'blank'
+      newLocatsa.target = 'blank'
+      newPhone.target = 'blank'
+      newSite.target = 'blank'
+
 
       newItem.appendChild(newTitle)
       newItem.appendChild(newTitle2)
@@ -127,6 +132,7 @@ const userComment = (array,list) => {
       newText5.textContent = com.body;
 
       newEmail4.href = com.email
+      newEmail4.target = 'blank'
    
       newItem.appendChild(newTitle2)
       newItem.appendChild(newText5)
